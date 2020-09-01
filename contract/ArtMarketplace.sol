@@ -11,7 +11,7 @@ contract ArtMarketplace {
     uint256 tokenId;
     address payable seller;
     uint256 price;
-    bool isSold;
+    bool isSold; 
   }
 
   ItemForSale[] public itemsForSale;
