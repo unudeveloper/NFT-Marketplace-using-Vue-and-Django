@@ -82,7 +82,7 @@ contract ArtMarketplace {
 
       emit itemSold(id, msg.sender, itemsForSale[id].price);
     }
-
+  
   function totalItemsForSale() external view returns(uint256) {
     return itemsForSale.length;
   }
